@@ -1,8 +1,8 @@
 # TMA-Auth-Backend
+### Telegram Mini App Authenticate with intidata | Flask backend
 
-
-## Frontend examples
-```
+## ☘️ Frontend examples
+```javascript
 const tg = window.Telegram.WebApp;
 tg.ready();
 const initData = tg.initData || "";
@@ -15,7 +15,7 @@ if (initData) {
   // Function to fetch data from an API
   async function fetchData() {
     try {
-      const response = await fetch("https://api.com", {
+      const response = await fetch("https://api-endpoint.com", {
         method: "GET", 
         // Set the Authorization header with the Bearer token
         headers: {
@@ -38,3 +38,6 @@ if (initData) {
 }
 
 ```
+
+## 🏖 if you have questions | Contact Me
+[![profile](https://img.shields.io/badge/Contact%20me-On%20Telegram-blue)](https://t.me/cnncodex)
